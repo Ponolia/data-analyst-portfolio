@@ -1,7 +1,7 @@
 # data-analyst-portfolio -김기창
-Data analysis portfolio focusing on user behavior, churn prediction, and A/B testing
+Data analysis portfolio focusing on user behavior, churn prediction
 
-사용자 행동 데이터를 기반으로 **이탈 예측, A/B 테스트, 데이터 기반 의사결정** 수행한 분석 포트폴리오입니다.
+사용자 행동 데이터를 기반으로 **이탈 예측 데이터 기반 의사결정** 수행한 분석 포트폴리오입니다.
 ---
 ## Project 1. 고객 이탈 예측 분석
 - 사용자 거래 및 활동성 데이터를 활용한 이탈 예측 모델 구축
@@ -16,8 +16,3 @@ Data analysis portfolio focusing on user behavior, churn prediction, and A/B tes
 Python, Pandas, Scikit-learnm XGBoost, SQL
 
 ---
-
-## Project 2. A/B 테스트 분석
-- 사용자 행동 지표 변화 검증을 위한 A/B 테스트 설계 및 분석
-- 실험군/대조군 비교 및 통계적 유의성 검정
-- 실험 결과 기반 제품 개선 액션 아이템 제

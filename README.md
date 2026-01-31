@@ -26,22 +26,26 @@
 
 ---
 
-## 📉 Project 2. 사용자 이탈 예측 분석 (Churn Prediction)
+## 📉 Project 2. 카드 고객 이탈 예측 및 위험 등급 관리 (Churn Prediction)
 
 ![Model](https://img.shields.io/badge/Model-XGBoost_&_Ensemble-blue) ![Metric](https://img.shields.io/badge/Metric-Recall_0.9+-red)
 
-### 1️⃣ 분석 내용
-* 사용자 거래 및 활동성 데이터를 활용하여 이탈 징후를 사전에 포착하는 예측 모델 구축
-* **적용 모델**: Logistic Regression, XGBoost, Stacking Ensemble 적용
+### 1️⃣ 분석 요약
+단순 예측을 넘어 **이탈 확률(Probability)**과 **거래 활동성 지표**를 결합하여, 실무에서 즉시 활용 가능한 **3단계 위험 관리 체계**를 수립했습니다.
 
-### 2️⃣ 핵심 인사이트 (Key Insights)
-* **이탈 신호**: 최근 거래 빈도 및 구매 금액 감소가 가장 강력한 이탈 전조 증상임을 파악
-* **성과**: 이탈 고객 **Recall 0.9+ 달성**으로 고위험 고객군에 대한 선제적 대응 기반 마련
+### 2️⃣ 위험 등급 분류 체계 (Risk Segmentation)
+| 등급 | 정의 및 기준 | 관리 전략 (Action Plan) |
+| :--- | :--- | :--- |
+| **🚨 High Risk** | 이탈 확률 > 35% & 활동성 지표 급감 | 즉각적인 복귀 프로모션 및 전담 케어 |
+| **⚠️ Medium Risk** | 이탈 확률 25~35% & 하락 징후 포착 | 서비스 재방문 유도를 위한 맞춤형 알림 |
+| **✅ Low Risk** | 이탈 확률 < 25% | 로열티 강화 및 교차 판매(Cross-selling) |
 
-### 3️⃣ 기술 스택 (Tech Stack)
-* **Language**: Python
-* **Library**: Pandas, Scikit-learn, XGBoost
-* **Database**: SQL
+### 3️⃣ 실무 적용을 위한 SQL 로직 구현
+* 모델의 예측 결과를 DB에 반영하여 마케팅 팀이 상시 추출할 수 있도록 **복합 조건 SQL 쿼리 로직** 설계. (최근 거래액, 비활성 월수, 이탈 확률 결합)
+
+### 4️⃣ 기술 스택 및 성과
+* **Model**: `XGBoost`, `Random Forest` (이탈 고객 재현율(Recall) 극대화)
+* **Core Logic**: 데이터 기반 위험 고객 자동 분류 시스템 제안
 
 ---
 

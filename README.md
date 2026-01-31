@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Project 1. 아망떼(Amante) 고객 세분화 및 CRM 전략 수립
+## 🚀 Project 1. E-commerce고객 세분화 및 CRM 전략 수립
 
 ![Analysis](https://img.shields.io/badge/Analysis-Pareto_&_Segmentation-green) ![Strategy](https://img.shields.io/badge/Strategy-Action_Plan-orange)
 

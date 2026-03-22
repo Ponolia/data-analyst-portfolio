@@ -31,7 +31,7 @@
 ![Model](https://img.shields.io/badge/Model-XGBoost_&_Ensemble-blue) ![Metric](https://img.shields.io/badge/Metric-Recall_0.9+-red)
 
 ### 1️⃣ 분석 요약
-단순 예측을 넘어 **이탈 확률(Probability)**과 **거래 활동성 지표**를 결합하여, 실무에서 즉시 활용 가능한 **3단계 위험 관리 체계**를 수립했습니다.
+단순 예측을 넘어 **이탈 확률**과 **거래 활동성 지표**를 결합하여, 실무에서 즉시 활용 가능한 **3단계 위험 관리 체계**를 수립했습니다.
 
 ### 2️⃣ 위험 등급 분류 체계 (Risk Segmentation)
 | 등급 | 정의 및 기준 | 관리 전략 (Action Plan) |

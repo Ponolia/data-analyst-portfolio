@@ -22,7 +22,7 @@
 | :---: | :--- |
 | ![Pareto Curve](images/pareto_curve.png) | **VIP 락인**: 상위 5.2% 핵심 고객 대상 전용 혜택 제공 및 리워드 강화 |
 | ![Customer Segments](images/customer_segments.png) | **타겟 마케팅**: 우수 고객 대상 재구매 유도 쿠폰 및 리텐션 캠페인 |
-| ![Order Frequency](images/order_frequency.png) | **CRM 자동화**: 침구 교체 주기(6개월)에 맞춘 개인화 리마인드 알림톡 |
+| ![Order Frequency](images/order_frequency.png) | **CRM 자동화**: 교체 주기(6개월)에 맞춘 개인화 리마인드 알림톡 |
 
 ---
 
